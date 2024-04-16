@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPL 2024 4K LIVE by M3U_LOVERS</title>
-</head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap');
@@ -61,7 +60,90 @@
             height: 1.5rem;
             margin-right: 0.5rem;
         }
-        </style>
+
+        main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .site-card {
+            background: linear-gradient(to bottom, #0f0c29, #302b63);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.4rem;
+        }
+
+        .site-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .site-card img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .site-info {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .site-info h2 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .language {
+            font-weight: bold;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00;
+        }
+
+        footer {
+            background: linear-gradient(to right, #0f0c29, #302b63);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .notice {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+         .notice p {
+            color: #ff0000;
+            font-weight: bold;
+        } 
+
+        @media (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+
+    .site-card img {
+        max-height: 150px;
+    }
+}
+    </style>
+</head>
 <body>
     <header>
         <h1 class="title">IPL 2024 4K LIVE BY M3U_LOVERS</h1>
@@ -72,7 +154,7 @@
     </header>
 
     <div class="notice">
-        <p>Notice: MATCH LINK UPDATED EVERDAY 6:30 PM. ©Copyright Owner JioCinema</p>
+        <p>Notice: MATCH LINK UPDATED EVERDAY 6:30 PM. <br>©Copyright Owner JioCinema</p>
     </div>
 
     <main>
@@ -91,7 +173,7 @@
         </a>
 
         <a href="player.html?channel=ipl-bhojpuri-4k&g=160424" class="site-card">
-            <img src="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/ipl_kkr_vs_rr_live_horizontal_carousel-1713212710468.jpg" alt="IPL 2024 BHOJPURI 4K">
+            <img src="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/ipl_kkr_vs_rr_live_horizontal_carousel-1713212710468.jpg" alt="IPL 2024 KANNADA 4K">
             <div class="site-info">
                 <h2><span class="language">BHOJPURI</span> IPL 2024 4K</h2>
             </div>
@@ -128,14 +210,14 @@
         <a href="player.html?channel=ipl-english-ads-free&g=160424" class="site-card">
             <img src="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/ipl_kkr_vs_rr_live_horizontal_carousel-1713212710468.jpg" alt="IPL 2024 English ads-free 4K">
             <div class="site-info">
-                <h2><span class="language">ENGLISH Ads-Free</span> IPL 2024 </h2>
+                <h2><span class="language">ENGLISH<br>Ads-Free</span> IPL 2024 4K</h2>
             </div>
         </a>
 
         <a href="player.html?channel=ipl-hindi-ads-free&g=160424" class="site-card">
             <img src="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/ipl_kkr_vs_rr_live_horizontal_carousel-1713212710468.jpg" alt="IPL 2024 Hindi ads-free 4K">
             <div class="site-info">
-                <h2><span class="language">Hindi Ads-Free</span> IPL 2024 </h2>
+                <h2><span class="language">Hindi Ads-Free</span> IPL 2024 4K</h2>
             </div>
         </a>
     </main>
