@@ -1,12 +1,4 @@
-<html>
-	<head>
-		<script>
-			window.location.replace("https://t.me/m3u_lovers/");
-		</script>
-	</head>
-</html>
 #EXTM3U × TG:@m3u_lovers
-#EXTM3U x-tvg-url="https://ardinesh-nettv.puspas.com.np/epg/nettv/master-epg.xml"
 #EXTINF:-1 tvg-id="" group-title="𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠" tvg-logo="https://i.ibb.co/BGwxHVB/IMG-20240315-140552-507.jpg" ,t.me/m3u_lovers
 https://t.me/m3u_lovers
 
