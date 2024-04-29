@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #0f0c29, #24243e);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        #player-container {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h4 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #8a2be2;
+            text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>Zee TV</h4>
+        <div id="player-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+    <script>
+        // Initialize JW Player
+        var player = jwplayer("player-container");
+
+        // Setup JW Player configuration
+        player.setup({
+         "file": "https://toxicify.pro/peace/hell/78.mpd",
+            "type": "dash",   
+               "drm": { "clearkey": {   
+      "keyId":"8351f972470d557cb4ea4afeb4b17219",   
+         "key":"676359d2e18c689642d92c043e3fb4f8"   
+                            }   
+                             },  
+            "width": "100%",
+            "stretching": "bestfit",
+            "autostart": "true",
+            "mute": "false",
+            "primary": "html5"
+        });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #0f0c29, #24243e);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        #player-container {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h4 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #8a2be2;
+            text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>Zee TV</h4>
+        <div id="player-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+    <script>
+        // Initialize JW Player
+        var player = jwplayer("player-container");
+
+        // Setup JW Player configuration
+        player.setup({
+         "file": "https://toxicify.pro/peace/hell/78.mpd",
+            "type": "dash",   
+               "drm": { "clearkey": {   
+      "keyId":"8351f972470d557cb4ea4afeb4b17219",   
+         "key":"676359d2e18c689642d92c043e3fb4f8"   
+                            }   
+                             },  
+            "width": "100%",
+            "stretching": "bestfit",
+            "autostart": "true",
+            "mute": "false",
+            "primary": "html5"
+        });
+    </script>
+</body>
+</html>
